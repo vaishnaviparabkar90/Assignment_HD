@@ -64,6 +64,7 @@ export default function Details() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+     
       <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div className="md:col-span-2">
@@ -71,7 +72,7 @@ export default function Details() {
             onClick={() => navigate(-1)}
             className="mb-6 bg-gray-100 px-4 py-2 rounded-lg hover:bg-gray-200 text-sm"
           >
-            ← Back
+            ← Details
           </button>
 
           <img

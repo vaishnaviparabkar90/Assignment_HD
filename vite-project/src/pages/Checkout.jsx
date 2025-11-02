@@ -103,7 +103,7 @@ const finalTotal = total - discount;
     onClick={() => navigate(-1)}
     className="text-black font-semibold text-2xl px-2 py-1 hover:opacity-70"
   >
-    ← Back
+    ← Checkout
   </button>
 </div>
 
